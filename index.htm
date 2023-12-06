@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/style/reset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/index.css">
@@ -39,11 +40,11 @@
                 </div>
                 <div id="menu">
                     <ul>
-                        <li><a href="">BREMOR today</a></li>
-                        <li><a href="">How we do it</a></li>
-                        <li><a href="">Catalogue</a></li>
-                        <li><a href="">Recipes</a></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="today.htm">BREMOR today</a></li>
+                        <li><a href="do.htm">How we do it</a></li>
+                        <li><a href="catalogue.htm">Catalogue</a></li>
+                        <li><a href="recipes.htm">Recipes</a></li>
+                        <li><a href="contacts.htm">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
@@ -71,39 +72,73 @@
                     </div>
                 </div>
             </section>
-            <section id="recipes">
-                    <h2>Recipes</h2>
-                    <div id="recipes-box" class="row">
-                        <div class="col-4 fleft recipe">
-                            <div class="rec-img">
-                                <img src="./assets/img/syrniki.jpg" alt="Recipes image" />
-                            </div>
-                            <div class="rec-text">
-                                <p>Pancake bags with cheese and caviar filling</p>
-                            </div>
-                        </div>
-                        <div class="col-4 fleft recipe">
-                            <div class="rec-img">
-                                <img src="./assets/img/Kish.jpg" alt="Recipes image" />
-                            </div>
-                            <div class="rec-text">
-                                <p>Pancake bags with cheese and caviar filling</p>
-                            </div>
-                        </div>
-                        <div class="col-4 fleft recipe">
-                            <div class="rec-img">
-                                <img src="./assets/img/Pankeiki_s_krilem.jpg" alt="Recipes image" />
-                            </div>
-                            <div class="rec-text">
-                                <p>Pancake bags with cheese and caviar filling</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="t-center">
-                        <button id="more" class="btn-4"><span>Read more</span></button>
-                    </div>
-            </section>
         </div>
+        <section id="recipes">
+                <div class="container">
+                    <h2>Recipes</h2>
+                    <div class="recipes">
+                        <div id="recipes-carousel" class="owl-carousel">
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/bulgon_s_pelmenyami.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Fragrant broth with vegetables and dumplings</h5>
+                                    <a href="#" class="more"> </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/tart_taten.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Tart taten with apples</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/Talgyatelle.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Tagliatelle with pesto and salmon</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/keta_s_pechenymi_ovoshchami.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Chum salmon with baked vegetables</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/Salat_s_tykvoj_i_ikroj.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Salad with nutmeg pumpkin, avocado and capelin caviar in sauce</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/rizotto.jpg" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Risotto with saffron and seafood</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="t-center">
+                    <button id="more" class="btn-4"><span>Read more</span></button>
+                </div>
+                </div>
+        </section>
     </main>
     <footer>
         <div class="container">
@@ -120,6 +155,7 @@
     <script src=" https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 
