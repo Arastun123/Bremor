@@ -6,12 +6,49 @@
 
 #bg{ background: url("../img/main.jpg") fixed; }
 h1{ display: block; }
-main p{
-    color: var(--txt-color);
-    font:500 1em "Roboto", sans-serif;
+h5{
+    color: #000;
+    font:600 1.5em "Roboto", sans-serif;
 }
 #head-text p{ color: #000; }
+header { height: 25vh; }
+#catalog{ position: relative; }
+#selection-boxes{
+    background: #fff;
+    box-shadow: 1px 1px 1px var(--border-color);
+    font:500 1em "Roboto", sans-serif;
+    color: var(--txt-color);
+    width: 100%;
+    padding: 10px 5px;
+    display: none;
+    margin-bottom:10px ;
+}
+#selection-boxes label{
+    display: block;
+    margin: 10px 0;
+}
+#btn{
+   display: flex;
+   justify-content: end;
+}
+.item {
+   text-align: center;
+   font:1em "Roboto", sans-serif;
+}
 
+.items-box{
+    flex-wrap: wrap;
+    width: 80%;
+}
+.item{ width: 33%; }
+#catalog{ align-items: start; }
+h1{color: var(--txt-color);}
 @media only screen and (min-width:992px) {
-    
+    #selection-boxes{
+        display: block;
+        box-shadow: none;
+        width: 100%;
+    }
+    .col-8{background: green;}
+    .d-none{display: none;}
 }
