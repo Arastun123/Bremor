@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root{
+    --txt-color:#6E6259;    
+    --border-color: #C00D1E;
+}
+
+#bg{ background: url("../img/main.jpg") fixed; }
+h1{ display: block; }
+main p{
+    color: var(--txt-color);
+    font:500 1em "Roboto", sans-serif;
+}
+#head-text p{ color: #000; }
+
+@media only screen and (min-width:992px) {
+    
+}
