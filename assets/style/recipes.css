@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root{
+    --txt-color:#6E6259;    
+    --border-color: #C00D1E;
+}
+
+#bg{ background: url("../img/main.jpg") fixed; }
+h1{ display: block; color: var(--txt-color); margin: 10px 0;}
+header{ height: 15vh;}
+.col-6 { padding: 0 10px; margin: 30px 0;}
+.col-6 img{width: 100%;}
+main{font-family: "Roboto", sans-serif;}
+@media only screen and (min-width:992px) {
+    .images img{ width: 30%; margin: 10px;}
+  
+}

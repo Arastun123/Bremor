@@ -15,7 +15,6 @@ header { height: 25vh; }
 #catalog{ position: relative; }
 #selection-boxes{
     background: #fff;
-    box-shadow: 1px 1px 1px var(--border-color);
     font:500 1em "Roboto", sans-serif;
     color: var(--txt-color);
     width: 100%;
@@ -30,25 +29,24 @@ header { height: 25vh; }
 #btn{
    display: flex;
    justify-content: end;
+   font-size: 1.5em;
 }
 .item {
    text-align: center;
    font:1em "Roboto", sans-serif;
+   width: 50%;
 }
-
-.items-box{
-    flex-wrap: wrap;
-    width: 80%;
-}
-.item{ width: 33%; }
-#catalog{ align-items: start; }
-h1{color: var(--txt-color);}
+.item { height: 40vh; }
+.items{ flex-wrap: wrap; }
+#catalog{ align-items: start; padding: 10px; }
+h1{ color: var(--txt-color); padding: 10px;}
+.filter-box{ width: 60% ;}
 @media only screen and (min-width:992px) {
     #selection-boxes{
         display: block;
         box-shadow: none;
         width: 100%;
     }
-    .col-8{background: green;}
     .d-none{display: none;}
+    .item{ width: 33%; }
 }
