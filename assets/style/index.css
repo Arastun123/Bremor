@@ -6,7 +6,8 @@
 .slider-item { 
     display: none;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.5s; 
+    z-index: -1;
 }
 .slider {
     position: relative;
@@ -40,7 +41,7 @@
 .slider-item {position: relative;}
 .desc{
     background: var(--blue);
-    padding:10px 15px;
+    padding: 10px 15px;
     color: var(--txt-white);
     width: 45vw;
     min-height: max-content;
@@ -94,6 +95,7 @@ h2::after{
 .item-details h5 {
     font: 1.5em 'Raleway', sans-serif;
     color: var(--txt-color);
+    text-align: center;
 }
 
 .more {
@@ -112,6 +114,7 @@ h2::after{
     width: 90% ;
     border-radius: 10px;
     height: 40vh;
+    margin: auto;
 }
 
 .item a:hover img {
@@ -131,7 +134,22 @@ h2::after{
 }
 h3{ color: #000; }
 #desc .d-flex { width: 300px; }
-
+.social-links i{
+    padding: 10px;
+    color:#fff;
+    font-size: 1.5em;
+}
+#up{
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+}
+#up a{
+    color: #fff;
+    padding: 15px;    
+    border-radius: 8px; 
+    background: #46454594;
+}
 @media only screen and (min-width:992px) {
     .img, .txt { margin: 10px 0 ;}
     .img img { width: 95%; }
@@ -140,6 +158,7 @@ h3{ color: #000; }
         text-align: end; 
     }
     .slider-item img{ height: 100vh;}
+    .item img { margin: 0; }
 
 }
 @media only screen and (max-width:350px) { h2{ font-size: 2em; } }

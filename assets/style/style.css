@@ -81,11 +81,7 @@ a{
     color: var(--txt-color) ;
     padding: 10px ;
 }
-nav{
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
+nav{ z-index: 1; }
 #menu{
     background: #fff;
     width: 250px;
@@ -197,6 +193,9 @@ h1{
 }
 .btn-4 span:hover:before { height: 100%; }
 .btn-4 span:hover:after { width: 100%; }
+
+button, img, a {cursor: pointer;}
+iframe { width: 100%; }
 footer{
     background: var(--txt-color);
     padding: 40px 20px;
@@ -207,7 +206,6 @@ footer{
 }
 .footer-img{ width: 20%; }
 .footer-img img { width: 100%; }
-button, img, a {cursor: pointer;}
 @media only screen and (min-width:992px) {
     .container {
         max-width: 95%;
