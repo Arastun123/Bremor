@@ -13,69 +13,107 @@
 
 <body>
     <header>
-        <div id="bg">
-            <nav>
-                <div class="bg-traspanrent">
-                    <div class="container">
-                        <div class="d-flex">
-                            <div class="hamburger-menu">
-                                <div class="bar"></div>
-                            </div>
-                            <div id="logo">
-                                <a href="index.htm">
-                                    <img src="./assets/img/logo.svg" alt="Logo" />
-                                </a>
-                            </div>
-                            <div id="languages">
-                                <button class="btn btn-lang dropdown-trigger"><i class="fas fa-globe"></i></button>
-                                <div class="dropdown">
-                                    <ul>
-                                        <li><a href="#">ENG</a></li>
-                                        <li><a href="#">RU</a></li>
-                                    </ul>
-                                </div>
+        <nav>
+            <div class="bg-traspanrent">
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="hamburger-menu">
+                            <div class="bar"></div>
+                        </div>
+                        <div id="logo">
+                            <a href="index.htm">
+                                <img src="./assets/img/logo.svg" alt="Logo" />
+                            </a>
+                        </div>
+                        <div id="languages">
+                            <button class="btn btn-lang dropdown-trigger"><i class="fas fa-globe"></i></button>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">ENG</a></li>
+                                    <li><a href="#">RU</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="menu">
-                    <ul>
-                        <li><a href="today.htm">BREMOR today</a></li>
-                        <li><a href="do.htm">How we do it</a></li>
-                        <li><a href="catalogue.htm">Catalogue</a></li>
-                        <li><a href="contacts.htm">Contacts</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div id="head-text">
-                <h1>BREMOR is one of the largest food producers in Europe.</h1>
             </div>
-        </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#products">Pproducts</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
+        <div class="slider">
+            <div class="slider-item">
+                <img src="./assets/img/main.jpg" alt="" />
+                <div class="desc">
+                    <p></p>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slider-item">
+                    <img src="./assets/img/CHE065051.jpg" alt="" />
+                    <div class="desc">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-item">
+                        <img src="./assets/img/CHE0563212.jpg" alt="" />
+                        <div class="desc">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/Sobludenie_rejima_pri_transportirovke_1500px.jpg" alt="" />
+                        <div class="desc">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="control" class="d-flex">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <section id="about">
-                <h2>About us</h2>
+                <h2 class="animatable fadeInUp">About us</h2>
                 <div class="text">
-                    <div class="img fright">
+                    <div class="img fright animatable bounceInRight">
                         <img src="./assets/img/6.jpg" alt="Image 6" />
                     </div>
-                    <div class="txt">
-                        <p>BREMOR is a strategic business unit of SANTA, one of the largest food producers in Europe.</p>
-                        <p>SANTA is a vertically integrated holding company, which was founded in 1993. It includes over 40 companies. The holding includes raw material suppliers, manufacturers of finished products, distribution and logistics companies, retailers and other companies.</p>
-                        <p>BREMOR is a multi-category manufacturer. The company started its business in 1998 with herring processing. Today the production includes more than 1000 food items in 11 categories:herring, salmon, seafood, surimi products, caviar, spreads, canned fish, seaweed products, salads, semi-finished dough products, ice-cream. The company's products are sold in 42 countries.</p>
+                    <div class="txt animatable bounceInLeft">
+                        <p>BREMOR is a strategic business unit of SANTA, one of the largest food producers in Europe.
+                        </p>
+                        <p>SANTA is a vertically integrated holding company, which was founded in 1993. It includes over
+                            40 companies. The holding includes raw material suppliers, manufacturers of finished
+                            products, distribution and logistics companies, retailers and other companies.</p>
+                        <p>BREMOR is a multi-category manufacturer. The company started its business in 1998 with
+                            herring processing. Today the production includes more than 1000 food items in 11
+                            categories:herring, salmon, seafood, surimi products, caviar, spreads, canned fish, seaweed
+                            products, salads, semi-finished dough products, ice-cream. The company's products are sold
+                            in 42 countries.</p>
                         <p>The company employs over 6000 people.</p>
-                        <p>BREMOR uses the best recipes and technological innovations, and also strictly controls the quality at all stages of production. The company has implemented and certified systems HACCP, ISO 9001, IFS Food, BRC.</p>
-                        <p>BREMOR offers more than good quality products: we delight our customers with exquisite dishes and let them enjoy wonderful taste.</p>
+                        <p>BREMOR uses the best recipes and technological innovations, and also strictly controls the
+                            quality at all stages of production. The company has implemented and certified systems
+                            HACCP, ISO 9001, IFS Food, BRC.</p>
+                        <p>BREMOR offers more than good quality products: we delight our customers with exquisite dishes
+                            and let them enjoy wonderful taste.</p>
                         <p>We are commited to transparancy and responsibility in business.</p>
                     </div>
                 </div>
             </section>
-        </div>
-        <section id="recipes">
-                <div class="container">
-                    <h2>Recipes</h2>
-                    <div class="recipes">
+            <section id="recipes">
+                <div class="container animatable fadeInUp">
+                    <h2 class="animatable bounceInLeft">Recipes</h2>
+                    <div class="recipes animatable bounceInRight">
                         <div id="recipes-carousel" class="owl-carousel">
                             <div class="item">
                                 <a href="#">
@@ -133,11 +171,130 @@
                             </div>
                         </div>
                     </div>
-                <div class="t-center">
-                    <button id="more" class="btn-4"><span>Read more</span></button>
+                    <div class="t-center">
+                        <button id="more" class="btn-4"><span>Read more</span></button>
+                    </div>
                 </div>
+            </section>
+            <section id="products">
+                <div class="container animatable fadeInUp">
+                    <h2 class="animatable bounceInLeft">Products</h2>
+                    <div class="recipes animatable bounceInRight">
+                        <div id="recipes-carousel" class="owl-carousel">
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive"
+                                        src="./assets/img/Матиас XXL 300 англ США (MATIAS_XXL_otborny_text).png" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Herring fillets "Maties" "XXL selected" in oil 1</h5>
+                                    <a href="#" class="more"> </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/SB_Matias_Glass_260_original_.png"
+                                        alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>>Herring fillet pieces "Maties" "XXL selected" in oil 2</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/MATIAS_250_original.png" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Herring fillets "Maties" "Original" in oil 8</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive"
+                                        src="./assets/img/Salmon_light_salted_file-kusok_1_200_dz.png" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Salmon lightly salted fillet-portion</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="./assets/img/Salmon_smoked_file-kusok_1_200_dz.png"
+                                        alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Salmon smoked fillet-portion</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive"
+                                        src="./assets/img/Forelz_slabosolenaya_file-lomtiki_1_100.png" alt="" />
+                                </a>
+                                <div class="item-details">
+                                    <h5>Trout lightly salted fillet-slices</h5>
+                                    <a href="#" class="more"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-center">
+                        <button id="more" class="btn-4"><span>Read more</span></button>
+                    </div>
                 </div>
-        </section>
+            </section>
+            <section id="contact">
+                <div class="row animatable fadeInUp">
+                    <div class="col-6 fleft">
+                        <h1>Contacts</h1>
+                        <div id="desc">
+                            <h3>Head office in Brest</h3>
+                            <p>JV Santa Bremor LLC</p>
+                            <p>Republic of Belarus, 224025 Brest, Katin Bor str., 106;</p>
+                            <ul>
+                                <li>
+                                    <p class="d-flex">
+                                        Mail:
+                                        <span> <a href="mailto:info@bremor.com">info@bremor.com</a></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex">
+                                        Phone:
+                                        <span> <a href="tel:+375 (162) 29-90-29">+375 (162) 29-90-29</a></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex">
+                                        Quality department:
+                                        <span> <a href="tel:+375 (162) 27-09-02">+375 (162) 27-09-02</a></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex">
+                                        HR:
+                                        <span> <a href="tel:+375 (162) 29-87-70">+375 (162) 29-87-70</a></span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex"   >
+                                        PR:
+                                        <span> <a href="tel:+375 (162) 29-90-46">+375 (162) 29-90-46</a></span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 fleft">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4896.98220456608!2d23.660589!3d52.143578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472109429f5cdf93%3A0xf2890b6dcbaa9b57!2z0KHQsNC90YLQsCbQmtGN0Yg!5e0!3m2!1sen!2sus!4v1702019086078!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container">
@@ -152,7 +309,6 @@
         </div>
     </footer>
     <script src=" https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./assets/js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/index.js"></script>
