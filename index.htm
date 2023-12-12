@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./assets/style/reset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/index.css">
@@ -22,7 +23,7 @@
                         </div>
                         <div id="logo">
                             <a href="index.htm">
-                                <img src="./assets/img/logo.svg" alt="Logo" />
+                                <!-- <img src="./assets/img/logo.svg" alt="Logo" /> -->
                             </a>
                         </div>
                         <div id="languages">
@@ -46,208 +47,106 @@
                 </ul>
             </div>
         </nav>
+        <video id="background-video" autoplay loop muted>
+            <source src="./assets/video/This is Super Seafood _ Look for the ASC and MSC certification labels.mp4"
+                type="video/mp4">
+        </video>
+        <div id="text">
+            <h1>Dəniz Məhsulları Dünyası</h1>
+        </div>
+        <div id="bg"></div>
     </header>
     <main>
-        <div class="slider">
-            <div class="slider-item">
-                <img src="./assets/img/main.jpg" alt="" />
-                <div class="desc">
-                    <p></p>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="slider-item">
-                    <img src="./assets/img/CHE065051.jpg" alt="" />
-                    <div class="desc">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="slider">
-                    <div class="slider-item">
-                        <img src="./assets/img/CHE0563212.jpg" alt="" />
-                        <div class="desc">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="slider-item">
-                        <img src="./assets/img/Sobludenie_rejima_pri_transportirovke_1500px.jpg" alt="" />
-                        <div class="desc">
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="control" class="d-flex">
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <section id="about">
-                <h2 class="animatable fadeInUp">About us</h2>
+                <h2 class="animatable fadeInUp">Hekayəmiz</h2>
                 <div class="text">
                     <div class="img fright animatable bounceInRight">
-                        <img src="./assets/img/6.jpg" alt="Image 6" />
+                        <img src="./assets/img/CHE0563212.jpg" alt="Image 6" />
                     </div>
                     <div class="txt animatable bounceInLeft">
-                        <p>BREMOR is a strategic business unit of SANTA, one of the largest food producers in Europe.</p>
-                        <p>SANTA is a vertically integrated holding company, which was founded in 1993. It includes over
-                            40 companies. The holding includes raw material suppliers, manufacturers of finished
-                            products, distribution and logistics companies, retailers and other companies.</p>
-                        <p>BREMOR is a multi-category manufacturer. The company started its business in 1998 with
-                            herring processing. Today the production includes more than 1000 food items in 11
-                            categories:herring, salmon, seafood, surimi products, caviar, spreads, canned fish, seaweed
-                            products, salads, semi-finished dough products, ice-cream. The company's products are sold
-                            in 42 countries.</p>
-                        <p>The company employs over 6000 people.</p>
-                        <p>BREMOR uses the best recipes and technological innovations, and also strictly controls the
-                            quality at all stages of production. The company has implemented and certified systems
-                            HACCP, ISO 9001, IFS Food, BRC.</p>
-                        <p>BREMOR offers more than good quality products: we delight our customers with exquisite dishes
-                            and let them enjoy wonderful taste.</p>
-                        <p>We are commited to transparancy and responsibility in business.</p>
+                        <p>Bütün dünyada ən yüksək keyfiyyətli təzə dəniz məhsulları axtarır. Beləliklə, vəhşi ovlanan,
+                            yetişdirilən, yerli, idxal olunan və ya əlavə dəyərli dəniz məhsulları axtarırsınızsa,
+                            Harvest əla dəniz məhsulları mənbəyidir. Həm pərakəndə, həm də iaşə tətbiqləri və xüsusi
+                            proqramlar mövcuddur. Ətraf mühit üçün vacib olan davamlılıq və izləmə qabiliyyətinə diqqət
+                            yetirən Harvest, eyni yüksək standartları paylaşan təchizatçılarla işləyir.</p>
                     </div>
                 </div>
             </section>
             <section id="recipes">
                 <div class="container animatable fadeInUp">
-                    <h2 class="animatable bounceInLeft">Recipes</h2>
-                    <div class="recipes animatable bounceInRight">
-                        <div id="recipes-carousel" class="owl-carousel">
+                    <h2 class="animatable bounceInLeft">Məhsullar</h2>
+                    <div class="item">
+                        <div class="animatable bounceInRight d-flex d-block">
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/bulgon_s_pelmenyami.jpg" alt="" />
+                                    <img class="img-responsive" src="./assets/img/SB_Matias_Glass_260_onion_.png"
+                                        alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Fragrant broth with vegetables and dumplings</h5>
-                                    <a href="#" class="more"> </a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/tart_taten.jpg" alt="" />
+                                    <img class="img-responsive"
+                                        src="./assets/img/Semga_podkopchennaya_file-kusok_1_300.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Tart taten with apples</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/Talgyatelle.jpg" alt="" />
+                                    <img class="img-responsive"
+                                        src="./assets/img/File_sel'di_s_kozhej__Russkoe_more__appetitnaya_1_230.png"
+                                        alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Tagliatelle with pesto and salmon</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img class="img-responsive" src="./assets/img/keta_s_pechenymi_ovoshchami.jpg" alt="" />
-                                </a>
-                                <div class="item-details">
-                                    <h5>Chum salmon with baked vegetables</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img class="img-responsive" src="./assets/img/Salat_s_tykvoj_i_ikroj.jpg" alt="" />
-                                </a>
-                                <div class="item-details">
-                                    <h5>Salad with nutmeg pumpkin, avocado and capelin caviar in sauce</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img class="img-responsive" src="./assets/img/rizotto.jpg" alt="" />
-                                </a>
-                                <div class="item-details">
-                                    <h5>Risotto with saffron and seafood</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="t-center">
-                        <button id="more" class="btn-4"><span>Read more</span></button>
+                        <button id="more" class="btn-4"><span>Daha çox</span></button>
                     </div>
                 </div>
             </section>
             <section id="products">
                 <div class="container animatable fadeInUp">
-                    <h2 class="animatable bounceInLeft">Products</h2>
+                    <h2 class="animatable bounceInLeft">Tərəfdaşlarımız</h2>
                     <div class="recipes animatable bounceInRight">
                         <div id="recipes-carousel" class="owl-carousel">
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive"
-                                        src="./assets/img/Матиас XXL 300 англ США (MATIAS_XXL_otborny_text).png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/santa_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Herring fillets "Maties" "XXL selected" in oil 1</h5>
-                                    <a href="#" class="more"> </a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/SB_Matias_Glass_260_original_.png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/meridian_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Herring fillet pieces "Maties" "XXL selected" in oil 2</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/MATIAS_250_original.png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/more_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Herring fillets "Maties" "Original" in oil 8</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive"
-                                        src="./assets/img/Salmon_light_salted_file-kusok_1_200_dz.png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/santa_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Salmon lightly salted fillet-portion</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive" src="./assets/img/Salmon_smoked_file-kusok_1_200_dz.png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/meridian_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Salmon smoked fillet-portion</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="img-responsive"
-                                        src="./assets/img/Forelz_slabosolenaya_file-lomtiki_1_100.png" alt="" />
+                                    <img class="img-responsive" src="./assets/img/more_logo.png" alt="" />
                                 </a>
-                                <div class="item-details">
-                                    <h5>Trout lightly salted fillet-slices</h5>
-                                    <a href="#" class="more"></a>
-                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="t-center">
-                        <button id="more" class="btn-4"><span>Read more</span></button>
                     </div>
                 </div>
             </section>
             <section id="contact">
                 <div class="row animatable fadeInUp">
                     <div class="col-6 fleft">
-                        <h2 class="animatable bounceInLeft">Contacts</h2>
+                        <h2 class="animatable bounceInLeft">Əlaqə</h2>
                         <div id="desc">
                             <h3>Head office in Brest</h3>
                             <p>JV Santa Bremor LLC</p>
@@ -256,7 +155,7 @@
                                 <li>
                                     <p class="d-flex">
                                         Mail:
-                                        <span> <a href="mailto:info@bremor.com">info@bremor.com</a></span>
+                                        <span> <a href="mailto:example@gmail.com">example@gmail.com</a></span>
                                     </p>
                                 </li>
                                 <li>
@@ -278,7 +177,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="d-flex"   >
+                                    <p class="d-flex">
                                         PR:
                                         <span> <a href="tel:+375 (162) 29-90-46">+375 (162) 29-90-46</a></span>
                                     </p>
@@ -287,24 +186,51 @@
                         </div>
                     </div>
                     <div class="col-6 fleft">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4896.98220456608!2d23.660589!3d52.143578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472109429f5cdf93%3A0xf2890b6dcbaa9b57!2z0KHQsNC90YLQsCbQmtGN0Yg!5e0!3m2!1sen!2sus!4v1702019086078!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4896.98220456608!2d23.660589!3d52.143578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472109429f5cdf93%3A0xf2890b6dcbaa9b57!2z0KHQsNC90YLQsCbQmtGN0Yg!5e0!3m2!1sen!2sus!4v1702019086078!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </section>
+            <div id="branchs">
+                <h2 class="animatable bounceInLeft">Mağazalar</h2>
+                <div class="d-flex autoplay animatable fadeInUp">
+                    <div class="item">
+                        <img src="./assets/img/araz.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/bolmart.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/bravo.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/araz.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/bolmart.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/bravo.svg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-       <div id="up">
+        <div id="up">
             <button id="scrollToTop"> <i class="fas fa-arrow-up"></i> </button>
-       </div>
+        </div>
     </main>
     <footer>
         <div class="container">
             <div class="d-flex">
                 <div class="copyright">
-                    <p>Copyright © 2023 Santa Bremor</p>
+                    <p>Copyright © 2023 </p>
                 </div>
                 <div class="social-links">
                     <ul class="d-flex">
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
                         <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
                     </ul>
@@ -315,6 +241,7 @@
     <script src=" https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
     <script src="./assets/js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 
