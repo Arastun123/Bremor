@@ -69,3 +69,7 @@ $(".dot").on("click", function() {
   let dotIndex = $(this).index() + 1;
   currentSlide(dotIndex);
 });
+
+$("#scrollToTop").click( function(){
+  $("html, body").animate({ scrollTop: 0  }, "slow");
+})

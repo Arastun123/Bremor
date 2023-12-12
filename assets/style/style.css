@@ -88,6 +88,7 @@ nav{ z-index: 1; }
     height: 95vh;  
     position: absolute;
     display: none;
+    z-index: 100;
 }
 #menu ul{
     display: flex;
