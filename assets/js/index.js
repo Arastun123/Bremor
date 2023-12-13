@@ -3,9 +3,7 @@ $(".burger-menu").click(function () {
   $("#menu").slideToggle("active");
 });
 
-$(".dropdown-trigger").click(function () {
-  $(".dropdown").fadeToggle()
-})
+$(".dropdown-trigger").click(function () { $(".dropdown").fadeToggle() })
 
 $(window).scroll(function () {
   let offset = $(window).scrollTop() + $(window).height(),
@@ -31,7 +29,7 @@ $(".owl-carousel").owlCarousel({
   smartSpeed: 450,
   responsive: {
     768: {
-      items: 2,
+      items: 3,
     },
     448: {
       items: 1,
@@ -80,6 +78,4 @@ $(".dot").on("click", function () {
   currentSlide(dotIndex);
 });
 
-$("#scrollToTop").click(function () {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-})
+$("#scrollToTop").click(function () { $("html, body").animate({ scrollTop: 0 }, "slow") })
