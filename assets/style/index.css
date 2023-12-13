@@ -14,15 +14,19 @@ nav{
     height: 100vh;
     object-fit: cover;
     z-index: 0;
-    position: relative;
 }
-#bg{
-    background: url("../img/bg-wave-2048x85.png") no-repeat;
-    background-position: center;
+main{
+    position: relative;
+
+}
+main::before{
+    content: "";
+    display: block;
+    background: url("../img/bg-wave-2048x85.png") no-repeat ;
     width: 100%;
     height: 10vh;
     position: absolute;
-    bottom: -5vh;
+    top: -5vh;
     left: 0px;
 }
 #text{
@@ -137,8 +141,7 @@ h3{ color: #000; }
     #desc p { margin: 0;}
     #bg { 
         background-position: inherit; 
-        bottom: 0;
-        
+        top: -10vh;        
     }
     .d-block{ display: flex; }
 }
