@@ -1,4 +1,4 @@
-$(".hamburger-menu").click(function () {
+$(".burger-menu").click(function () {
   $(".bar").toggleClass("animate");
   $("#menu").slideToggle("active");
 });

@@ -3,7 +3,7 @@
     --txt-color:#1A275D;    
     --border-color: #1A275D;
 }
-.hamburger-menu {
+.burger-menu {
     padding: 10px;
     cursor: pointer;
 }
@@ -50,24 +50,13 @@
     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.d-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .bg-traspanrent{ 
     padding: 10px ;
     background: #ffffff6c;
 }
 #logo{  width: 30%; }
 #logo img{ width: 100%;}
-.btn{
-    border: none;
-    background: transparent;
-    color: var(--border-color);
-    font-size: 1em;
-}
-#languages, .hamburger-menu { position: relative; }
+#languages, .burger-menu { position: relative; }
 .dropdown {
     background: #fff;
     width: max-content;
@@ -77,6 +66,17 @@
     margin-top: 10px;
 }
 .dropdown li { margin: 10px ; }
+.btn{
+    border: none;
+    background: transparent;
+    color: var(--border-color);
+    font-size: 1em;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 a{
     color: var(--txt-color) ;
     padding: 10px ;
@@ -108,16 +108,18 @@ nav{ z-index: 1; }
     transition: 2s;
 }
 section{ padding: 10px; }
+h1{
+    color: #fff;
+    font: bold 1.5em 'Roboto', sans-serif;
+}
+
 h2{
     color: var(--txt-color);
     font: 600 2em 'Roboto', sans-serif;
     margin: 0 0 0 40px;
     width: max-content;
 }
-h1{
-    color: #fff;
-    font: bold 1.5em 'Roboto', sans-serif;
-}
+
 .t-center{ text-align: center;}
 #more{
     font-size: 1.3em;
@@ -153,20 +155,10 @@ h1{
     background: var(--border-color);
     transition: all 0.3s ease;
 }
-.btn-4:before {
-    height: 40%;
-    width: 2px;
-}
-.btn-4:after {
-    width: 20%;
-    height: 2px;
-}
-.btn-4:hover:before {
-    height: 90%;
-}
-.btn-4:hover:after {
-    width: 90%;
-}
+.btn-4:before { height: 40%; width: 2px; }
+.btn-4:after { width: 20%; height: 2px; }
+.btn-4:hover:before { height: 90%; }
+.btn-4:hover:after { width: 90%; }
 .btn-4 span:before,
 .btn-4 span:after {
     position: absolute;
@@ -211,6 +203,19 @@ footer::before{
 }
 .footer-img{ width: 20%; }
 .footer-img img { width: 100%; }
+#up{
+    position: fixed;
+    right: 15px;
+    bottom: 35px;
+    z-index: 10;
+}
+#up button{
+    color: #fff;
+    padding: 15px;    
+    border-radius: 8px; 
+    background: #46454594;
+    border: none;
+}
 @media only screen and (min-width:992px) {
     .container {
         max-width: 95%;
